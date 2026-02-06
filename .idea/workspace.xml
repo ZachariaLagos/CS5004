@@ -49,6 +49,9 @@
     &quot;accountId&quot;: &quot;01413adc-0822-43ce-8e63-8bf09c2869da&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -110,7 +113,7 @@
       <updated>1769540075126</updated>
       <workItem from="1770366917160" duration="629000" />
       <workItem from="1770367673539" duration="87000" />
-      <workItem from="1770367761797" duration="650000" />
+      <workItem from="1770367761797" duration="963000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <option name="closed" value="true" />
@@ -189,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770368109816</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="lab3">
+      <created>1770368549505</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1770368549505</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +224,7 @@
     </ignored-roots>
     <MESSAGE value="lab2" />
     <MESSAGE value="assignment1" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment1" />
+    <MESSAGE value="lab3" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab3" />
   </component>
 </project>
