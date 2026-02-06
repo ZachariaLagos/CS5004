@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfed603b-e482-44b2-af85-76040f528f0b" name="Changes" comment="assignment1">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/src/main/java/AbstractShape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/src/main/java/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/src/main/java/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/src/main/java/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/src/main/java/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab3/Shape/src/main/java/Triangle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/Labs/Lab1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Labs/Lab2">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/Labs/Lab2">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ZachariaLagos&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ZachariaLagos/CS5004.git&quot;,
+    &quot;accountId&quot;: &quot;01413adc-0822-43ce-8e63-8bf09c2869da&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38qvmafjvaMo60TxIsU9iexJ8ui" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lizihao/CS5004&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CS5004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CS5004" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfed603b-e482-44b2-af85-76040f528f0b" name="Changes" comment="" />
+      <created>1769540075126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769540075126</updated>
+    </task>
+    <task id="LOCAL-00001" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1769540118304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769540118304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1769543296293</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769543296293</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1769543311105</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769543311105</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1769543420327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769543420327</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1769543759054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769543759054</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1769543984581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769543984581</updated>
+    </task>
+    <task id="LOCAL-00007" summary="assignment1">
+      <option name="closed" value="true" />
+      <created>1769852555811</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769852555811</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Labs/Lab2" />
+    </ignored-roots>
+    <MESSAGE value="lab2" />
+    <MESSAGE value="assignment1" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment1" />
+  </component>
+</project>
