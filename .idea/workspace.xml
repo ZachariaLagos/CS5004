@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfed603b-e482-44b2-af85-76040f528f0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment/Assignment1/ElectricVehicle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/Assignment1/ElectricVehicle.zip" afterDir="false" />
-    </list>
+    <list default="true" id="dfed603b-e482-44b2-af85-76040f528f0b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +110,7 @@
       <updated>1769540075126</updated>
       <workItem from="1770366917160" duration="629000" />
       <workItem from="1770367673539" duration="87000" />
-      <workItem from="1770367761797" duration="344000" />
+      <workItem from="1770367761797" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <option name="closed" value="true" />
@@ -185,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770367780200</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="assignment1">
+      <created>1770368109816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1770368109816</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
