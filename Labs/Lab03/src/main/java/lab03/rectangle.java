@@ -1,3 +1,5 @@
+package lab03;
+
 /**
  * This class represents a rectangle.  It defines all the operations mandated by
  * the Shape interface
