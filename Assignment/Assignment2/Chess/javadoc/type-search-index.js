@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"chess","l":"Bishop"},{"p":"chess","l":"ChessPiece"},{"p":"chess","l":"ChessPieceContract","k":"10"},{"p":"chess","l":"Color","k":"9"},{"p":"chess","l":"King"},{"p":"chess","l":"Knight"},{"p":"chess","l":"Pawn"},{"p":"chess","l":"Queen"},{"p":"chess","l":"Rook"}];updateSearchResults();
