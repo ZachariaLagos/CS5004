@@ -20,7 +20,6 @@ public abstract class AbstractShape implements Shape {
   public int compareTo(Shape s) {
     double areaThis = this.area();
     double areaOther = s.area();
-
     if (areaThis < areaOther) {
       return -1;
     } else if (areaOther < areaThis) {

@@ -1,0 +1,100 @@
+@startuml
+
+interface Common {
+  + receiveAward(award: String): void
+}
+
+abstract class Artist {
+  # name: String
+  # age: int
+  # genres: String[]
+  # awards: String[]
+  + getName(): String
+  + getAge(): int
+  + getGenre(): String[]
+  + getAwards(): String[]
+  + setName(name: String): void
+  + setAge(age: int): void
+  + setGenre(genres: String[]): void
+  + setAwards(awards: String[]): void
+  + receiveAward(award: String): void
+  + toString(): String
+  + equals(o: Object): boolean
+  + hashCode(): int
+}
+
+abstract class MultimediaArtists {
+  - movies: String[]
+  - series: String[]
+  - otherMultimedia: String[]
+  + getMovies(): String[]
+  + getSeries(): String[]
+  + getOtherMultimedia(): String[]
+  + setMovies(movies: String[]): void
+  + setSeries(series: String[]): void
+  + setOtherMultimedia(otherMultimedia: String[]): void
+  + toString(): String
+  + equals(o: Object): boolean
+  + hashCode(): int
+}
+
+abstract class VisualArtists {
+  - exhibits: String[]
+  + getExhibits(): String[]
+  + setExhibits(exhibits: String[]): void
+  + toString(): String
+  + equals(o: Object): boolean
+  + hashCode(): int
+}
+
+class Musician {
+  - recordingCompany: String
+  - lastRecordedAlbum: String
+  + getRecordingCompany(): String
+  + getLastRecordedAlbum(): String
+  + setRecordingCompany(recordingCompany: String): void
+  + setLastRecordedAlbum(lastRecordedAlbum: String): void
+  + toString(): String
+  + equals(o: Object): boolean
+  + hashCode(): int
+}
+
+class Poet {
+  - publishedCompany: String
+  - lastPublishedCollection: String
+  + getPublishedCompany(): String
+  + getLastPublishedCollection(): String
+  + setPublishedCompany(publishedCompany: String): void
+  + setLastPublishedCollection(lastPublishedCollection: String): void
+  + toString(): String
+  + equals(o: Object): boolean
+  + hashCode(): int
+}
+
+class Actor {
+}
+
+class Dancer {
+}
+
+class Filmmaker {
+}
+
+class Painter {
+}
+
+class Photographer {
+}
+
+Common <|.. Artist
+Artist <|-- MultimediaArtists
+Artist <|-- VisualArtists
+Artist <|-- Musician
+Artist <|-- Poet
+MultimediaArtists <|-- Actor
+MultimediaArtists <|-- Dancer
+MultimediaArtists <|-- Filmmaker
+VisualArtists <|-- Painter
+VisualArtists <|-- Photographer
+
+@enduml
