@@ -15,7 +15,7 @@ public class Program4 {
     Character[] charArry = {'H', 'E', 'L', 'L', 'O'};
     String[] strArry = {"once", "upon", "a", "time"};
     System.out.println("Max Integer is: " + getMax(intArry));
-    System.out.println("Max Double is: " + getMax(doubArry));s
+    System.out.println("Max Double is: " + getMax(doubArry));
     System.out.println("Max Character is: " + getMax(charArry));
     System.out.println("Max String is: " + getMax(strArry));
   }
