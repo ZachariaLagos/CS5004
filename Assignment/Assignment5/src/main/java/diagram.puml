@@ -1,27 +1,60 @@
 @startuml
-'https://plantuml.com/class-diagram
 
-abstract class AbstractList
-abstract AbstractCollection
-interface List
-interface Collection
+skinparam classAttributeIconSize 0
 
-List <|-- AbstractList
-Collection <|-- AbstractCollection
-
-Collection <|- List
-AbstractCollection <|- AbstractList
-AbstractList <|-- ArrayList
-
-class ArrayList {
-Object[] elementData
-size()
+abstract class Donations {
+  # amount : double
+  # creationDate : LocalDateTime
+  --
+  + Donations(amount : double, creationDate : LocalDateTime)
+  + getCreationDate() : LocalDateTime
+  + setCreationDate(creationDate : LocalDateTime) : void
+  + getAmount() : double
+  + setAmount(amount : double) : void
+  + {abstract} getAmountOfYear(year : int) : double
 }
 
-enum TimeUnit {
-DAYS
-HOURS
-MINUTES
+class OneTime {
+  --
+  + OneTime(amount : double, creationDate : LocalDateTime)
+  + getAmountOfYear(year : int) : double
 }
+
+class Monthly {
+  # cancelDate : LocalDateTime
+  --
+  + Monthly(amount : double, creationDate : LocalDateTime)
+  + cancel(cancelDate : LocalDateTime) : void
+  + getCancelDate() : LocalDateTime
+  + getAmountOfYear(year : int) : double
+}
+
+class Pledge {
+  # processingDate : LocalDateTime
+  --
+  + Pledge(amount : double, creationDate : LocalDateTime)
+  + Pledge(amount : double, creationDate : LocalDateTime, processingDate : LocalDateTime)
+  + getProcessingDate() : LocalDateTime
+  + setProcessingDate(processingDate : LocalDateTime) : void
+  + getAmountOfYear(year : int) : double
+}
+
+class Nonprofit {
+  # name : String
+  # donations : Collection<Donations>
+  --
+  + Nonprofit(name : String)
+  + addDonation(donation : Donations) : void
+  + getTotalDonationsForYear(year : int) : double
+  + getName() : String
+  + setName(name : String) : void
+  + getDonations() : Collection<Donations>
+  + setDonations(donations : Collection<Donations>) : void
+}
+
+Donations <|-- OneTime
+Donations <|-- Monthly
+Donations <|-- Pledge
+Nonprofit "1" o-- "0..*" Donations : contains
 
 @enduml
