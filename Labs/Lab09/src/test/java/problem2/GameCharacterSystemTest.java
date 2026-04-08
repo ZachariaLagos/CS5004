@@ -1,12 +1,11 @@
 package problem2;
 
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * CS5004 Spring 2026 - Lab 9: Design Patterns
- * Problem 2: Game Character Creation System - Unit Tests
+ * Problem 2: Game Character Creation System - Unit Tests (JUnit 5)
  */
 public class GameCharacterSystemTest {
 
@@ -429,9 +428,11 @@ public class GameCharacterSystemTest {
         assertTrue(tank3 instanceof Warrior);
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void testFactoryInvalidRole() {
-        CharacterFactory.createCharacter("invalid", "Test");
+        assertThrows(IllegalArgumentException.class, () -> {
+            CharacterFactory.createCharacter("invalid", "Test");
+        });
     }
 
     @Test

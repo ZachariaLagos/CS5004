@@ -1,14 +1,13 @@
 package problem1;
 
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Modifier;
 
 /**
  * CS5004 Spring 2026 - Lab 9: Design Patterns
- * Problem 1: Smart Home Control System - Unit Tests
+ * Problem 1: Smart Home Control System - Unit Tests (JUnit 5)
  */
 public class SmartHomeSystemTest {
 
@@ -230,9 +229,11 @@ public class SmartHomeSystemTest {
         assertTrue(light3 instanceof SmartLight);
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void testFactoryInvalidType() {
-        DeviceFactory.createDevice("invalid", "Test");
+        assertThrows(IllegalArgumentException.class, () -> {
+            DeviceFactory.createDevice("invalid", "Test");
+        });
     }
 
     // ========================================================================
